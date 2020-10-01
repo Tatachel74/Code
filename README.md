@@ -64,9 +64,9 @@ JavaScript:
 Java (Maven):
 
 &lt;dependency&gt;
-  <groupId>neuro</groupId>
-  <artifactId>sdk</artifactId>
-  <version>1.0.0</version>
+  &lt;groupId>neuro</groupId&gt;
+  &lt;artifactId>sdk</artifactId&gt;
+  &lt;version>1.0.0</version&gt;
 &lt;dependency&gt;
 iOS (добавьте код в ваш Podfile):
 
