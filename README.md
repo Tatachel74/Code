@@ -1,14 +1,4 @@
- <script src="https://localhost/neuro.sdk.min.js"></script>
-Java (Maven):
-
-<dependency>
-  <groupId>neuro</groupId>
-  <artifactId>sdk</artifactId>
-  <version>1.0.0</version>
-</dependency>
-
-
-Установка GIT
+ Установка GIT
 Git - одна из самых популярных систем контроля версий, используется разработчиками, для контроля изменений в своих разработках и проектах. Изначально создан для использования на Linux-подобных операционных системах, но позднее, из-за удобства и популярности для Windows был написан специальный эмулятор, поддерживающий функционал Git’a.
 
 Начало работы
@@ -66,4 +56,22 @@ git commit -m "Init"
 git remote add origin https://github.com/пользователь/репозиторий.git
 git push -u origin master
 
-Лицензии !
+Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
+
+JavaScript:
+
+<script src="https://localhost/neuro.sdk.min.js"></script>
+Java (Maven):
+
+&lt;dependency&gt;
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+&lt;dependency&gt;
+iOS (добавьте код в ваш Podfile):
+
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
+
+
+
